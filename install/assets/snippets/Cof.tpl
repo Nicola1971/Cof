@@ -16,7 +16,7 @@
 // Show a document field only on first page
 // [[Cof? &paginate=`page` &field=`content` &Message=`@TPL:GoBack`]]
 // or
-// [[Cof? &paginate=`page` &field=`content` &Message=`<a class="btn btn-default" href="[~[*id*]~]"><i class="fa fa-arrow-left"></i> Torna alla pagina iniziale</a>`]]
+// [[Cof? &paginate=`page` &field=`content` &Message=`<a class="btn btn-default" href="[~[*id*]~]"><i class="fa fa-arrow-left"></i> Back to the first page</a>`]]
 // Show a chunk only on first page
 // [[Cof? &paginate=`page` &chunk=`TopNews` &Message=`@TPL:GoBack`]]
 // Show a Template Vartiable only on first page
