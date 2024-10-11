@@ -14,15 +14,15 @@
  */
 // examples:
 // Show a document field only on first page
-// [[Cof? &paginate=`start` &field=`content` &Message=`@TPL:GoBack`]]
+// [[Cof? &paginate=`page` &field=`content` &Message=`@TPL:GoBack`]]
 // or
-// [[Cof? &paginate=`start` &field=`content` &Message=`<a class="btn btn-default" href="[~[*id*]~]"><i class="fa fa-arrow-left"></i> Torna alla pagina iniziale</a>`]]
+// [[Cof? &paginate=`page` &field=`content` &Message=`<a class="btn btn-default" href="[~[*id*]~]"><i class="fa fa-arrow-left"></i> Torna alla pagina iniziale</a>`]]
 // Show a chunk only on first page
-// [[Cof? &paginate=`start` &chunk=`TopNews` &Message=`@TPL:GoBack`]]
+// [[Cof? &paginate=`page` &chunk=`TopNews` &Message=`@TPL:GoBack`]]
 // Show a Template Vartiable only on first page
-// [[Cof? &paginate=`start` &Tv=`MyTv` &Message=`@TPL:GoBack`]]
+// [[Cof? &paginate=`page` &Tv=`MyTv` &Message=`@TPL:GoBack`]]
 // Show and Render a Template Vartiable only on first page
-// [[Cof? &paginate=`start` &Tv=`MyTv` &RenderTv=`1` &Message=`@TPL:GoBack`]]
+// [[Cof? &paginate=`page` &Tv=`MyTv` &RenderTv=`1` &Message=`@TPL:GoBack`]]
 	
 $paginate = (isset($paginate)) ? $paginate : 'page'; // Default pagination parameter
 $field = (isset($field)) ? $field : 'content'; // Default field to return
